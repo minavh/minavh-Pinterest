@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bigbox {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+/* .Contedenedor-Header {
+    position: fixed;
+} */
+
+.imgpin {
+    width: 40px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    color: black;
+}
+
+.header {
+    display: flex; /* para alineas los hijos en línea */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-buscador {
+    border: 0;
+    border-radius: 30px;
+    color: gray;
+    width: 50%;
+    height: 40px;
+    cursor: text;
+}
+
+.imgheader {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.imgcam {
+    width: 50px;
+    height: auto;
+}
+
+.imgchat {
+    width: 30px;
+    height: auto;
+}
+
+.imgm {
+    width: 30px;
+    height: auto;
+}
+
+/* Para las imágenes */
+
+.main-img {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    gap: auto;
+    max-width: 100%;
+
+}
+
+.justify-center {
+    justify-content: space-between
+}
+
+.card-image {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card-image img {
+    width: 232px;
+    height: auto;
+    border-radius: 15%;
+
+}
+
+.card-image p {
+    text-align: left;
+}
